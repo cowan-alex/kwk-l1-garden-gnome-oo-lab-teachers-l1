@@ -30,7 +30,7 @@ class GardenGnome
   end
   
   def gluten_allergy=(allergy)
-    @allergy = gluten_allergy
+    @allergy = allergy
   end
   
 end
