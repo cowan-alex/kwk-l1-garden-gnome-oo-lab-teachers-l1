@@ -1,6 +1,20 @@
 # Code your instances  
 class GardenGnome
-  def name(gnome_name)
+  
+  def initialize(hat_color="red")
+    @personality = "evil"
+    @hat_color = hat_color
+  end
+  
+  def hat_color
+    return @hat_color
+  end
+  
+  def personality
+    return @personality
+  end
+  
+  def name
     return @name
   end
   
@@ -8,7 +22,7 @@ class GardenGnome
     @name = gnome_name
   end
   
-  def age(gnome_age)
+  def age
     return @age
   end
   
@@ -17,23 +31,13 @@ class GardenGnome
   end
   
   def gluten_allergy
-    return @gluten_allergy
+    return @allergy
   end
   
-  def gluten_allergy=(gluten_allergy)
-    @gluten_allergy = gluten_allergy
+  def gluten_allergy=(allergy)
+    @allergy = allergy
   end
   
-  def initialize("evil", hat_color)
-    @personality = "evil"
-    def hat_color(color)
-      return @hat_color
-    end
-    
-    def hat_color=(color)
-      @hat_color = color
-    end
-    
   def gnaw
     return "Gnawing on a tree!!!"
   end
@@ -43,8 +47,7 @@ class GardenGnome
   end
   
   def introduce_self
-    return "Hello humans, my name is @gnome_name, I am @gnome_age years old, and you'll rue the day you crossed me!"
-  end
+    return "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
   end
   
 end
