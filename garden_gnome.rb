@@ -1,6 +1,10 @@
 # Code your instances  
 class GardenGnome
   
+  def initialize
+    @personality = "evil"
+  end
+  
   def name(gnome_name)
     return @name
   end
@@ -24,4 +28,5 @@ class GardenGnome
   def gluten_allergy=(allergy)
     @allergy = gluten_allergy
   end
+  
 end
