@@ -9,7 +9,7 @@ class GardenGnome
     return @personality
   end
   
-  def name(gnome_name)
+  def name
     return @name
   end
   
