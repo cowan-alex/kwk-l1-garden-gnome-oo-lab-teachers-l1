@@ -18,11 +18,11 @@ class GardenGnome
   end
   
   def gluten_allergy
-    return @gluten_allergy
+    return @allergy
   end
   
   def gluten_allergy=(gluten_allergy)
-    @gluten_allergy = gluten_allergy
+    @allergy = gluten_allergy
   end
   
   def initialize(personality, hat_color)
