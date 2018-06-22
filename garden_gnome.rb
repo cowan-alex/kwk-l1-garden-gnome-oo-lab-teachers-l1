@@ -1,6 +1,12 @@
 # Code your instances  
 class GardenGnome
-  attr_accessor :gnome_name
+  def name(gnome_name)
+    return @name
+  end
+  
+  def name=(gnome_name)
+    @name = gnome_name
+  end
   
   def age(gnome_age)
     return @age
