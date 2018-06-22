@@ -3,7 +3,7 @@ class GardenGnome
   
   def initialize(hat_color)
     @personality = "evil"
-    @hat_color = hat_color
+    @hat_color = "red"
   end
   
   def personality
