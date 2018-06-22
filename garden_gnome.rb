@@ -17,7 +17,7 @@ class GardenGnome
     @name = gnome_name
   end
   
-  def age(gnome_age)
+  def age
     return @age
   end
   
