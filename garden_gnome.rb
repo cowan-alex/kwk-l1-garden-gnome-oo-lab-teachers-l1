@@ -25,11 +25,9 @@ class GardenGnome
     @allergy = gluten_allergy
   end
   
-  def initialize(personality, hat_color)
-      @personality = personality
-    def hat_color
+  def initialize(hat_color)
+      @personality = "evil"
       @hat_color = hat_color
-    end
   end
     
   def gnaw
