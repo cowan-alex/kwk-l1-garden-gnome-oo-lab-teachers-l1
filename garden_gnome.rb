@@ -38,4 +38,8 @@ class GardenGnome
     @allergy = allergy
   end
   
+  def gnaw
+    return "Gnawing on a tree!!!"
+  end
+  
 end
