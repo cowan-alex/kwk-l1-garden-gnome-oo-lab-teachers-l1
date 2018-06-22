@@ -5,6 +5,11 @@ class GardenGnome
     @personality = "evil"
   end
   
+  def personality
+    return @personality
+  end
+  
+  
   def name(gnome_name)
     return @name
   end
